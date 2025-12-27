@@ -44,5 +44,6 @@ medicine-etl-pipeline/
 python src/test_db.py
 
 Output: ('pharma_dw',) -> Success!
+
 3. **Run Pipeline**:
 python src/pipeline.py
