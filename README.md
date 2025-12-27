@@ -7,6 +7,7 @@ A modular data engineering project that extracts medicine data from CSVs, cleans
 
 
 ## 📂 Project Structure
+
 medicine-etl-pipeline/
 ├── data/
 │ └── sample_clinicaltrials.csv # Raw source data
