@@ -6,23 +6,24 @@ A modular data engineering project that extracts medicine data from CSVs, cleans
 
 
 
+
 ## 📂 Project Structure
 
-medicine-etl-pipeline/
+\`\`\`
+medicine-etl-pipleine/
 ├── data/
-│ └── sample_clinicaltrials.csv # Raw source data
+│   └── sample_clinicaltrials.csv  # Raw source data
 ├── sql/
-│ ├── schema.sql # Table definitions
-│ └── sample_queries.sql # SQL for analysis
+│   ├── schema.sql                 # Table definitions
+│   └── sample_queries.sql         # SQL for analysis
 ├── src/
-│ ├── db.py # Database connection factory
-│ ├── extract.py # Data extraction logic
-│ ├── transform.py # Data cleaning & normalization
-│ ├── load.py # Bulk database loading
-│ ├── pipeline.py # Main orchestration script
-│ └── test_db.py # Connection verification script
+│   ├── db.py                      # Database connection factory
+│   ├── extract.py                 # Data extraction logic
+│   ├── transform.py               # Data cleaning & normalization
+│   ├── load.py                    # Bulk database loading
+│   ├── pipeline.py                # Main orchestration script
+│   └── test_db.py                 # Connection verification script
 └── README.md
-
 
 
 ## 🚀 Features
