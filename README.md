@@ -9,7 +9,7 @@ A modular data engineering project that extracts medicine data from CSVs, cleans
 
 ## 📂 Project Structure
 
-\`\`\`
+```
 medicine-etl-pipleine/
 ├── data/
 │   └── sample_clinicaltrials.csv  # Raw source data
@@ -24,7 +24,7 @@ medicine-etl-pipleine/
 │   ├── pipeline.py                # Main orchestration script
 │   └── test_db.py                 # Connection verification script
 └── README.md
-\`\`\`
+```
 
 ## 🚀 Features
 - **Modular Design**: Separate logic for Extract, Transform, and Load steps.
