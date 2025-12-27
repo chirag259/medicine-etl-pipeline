@@ -31,7 +31,7 @@ medicine-etl-pipeline/
 - **Data Quality**: Handles missing values and schema validation automatically.
 
 ## 🛠️ Tech Stack
-- **Python 3.x**: Core programming language.
+- **Python 3**: Core programming language.
 - **MySQL Workbench**: Database design and management.
 - **SQLAlchemy**: ORM for database connections.
 - **Pandas**: High-performance data manipulation.
